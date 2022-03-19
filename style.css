@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+    min-height: 100vh;
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    background: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: 0 -80px;
+    background-color: hsl(225, 100%, 94%);
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 23rem;
+    border-radius: 20px;
+    box-shadow: 0px 20px 50px rgb(56 41 224/ 15%);
+}
+
+.card-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0 0 20px 20px;
+}
+
+.card-title h2{
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+.card-text p{
+    font-size: 1rem;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+
+.card-plan{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+    min-width: 100%;
+    background-color: hsl(225, 100%, 98%);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.plan{
+    display: flex;
+    gap: 1rem;
+}
+
+.plan-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan-text h4{
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+}
+
+.plan-text p{
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+
+.plan-change a{
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+
+.plan-change:hover a{
+    color: hsl(245, 83%, 68%);
+    text-decoration: none;
+}
+
+/* Button Styling */
+.card-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    min-width: 100%;
+}
+
+.btn-primary{
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 0.7rem 0rem;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border-radius: 10px;
+    min-width: 100%;
+    box-shadow: 0px 20px 25px rgb(56 41 224/ 20%); 
+    transition: 0.2s ease-in;
+}
+
+.btn-primary:hover{
+    background-color: hsl(245, 83%, 68%);
+    box-shadow: 0px 20px 25px rgb(117 106 241/ 20%);
+}
+
+.btn-secondary{
+    color: hsl(224, 23%, 55%);
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding: 0.7rem 0rem;
+    border-radius: 10px;
+}
+
+.card-button a{
+    text-decoration: none;
+    min-width: 100%;
+    border-radius: 10px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
