@@ -66,7 +66,6 @@ I got to play with different box shadow values and decided to keep the one that 
     box-shadow: 0px 20px 25px rgb(56 41 224/ 20%); 
     transition: 0.2s ease-in;
 }
-}
 ```
 
 ### Continued development
